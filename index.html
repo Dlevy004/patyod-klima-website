@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ME9DQ3SZK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8ME9DQ3SZK');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+        name="description" 
+        content="Klímaszolgáltatás Pátyodon és 30 km-es körzetében. Ingyenes felmérés! Telepítés, karbantartás, tisztítás - gyorsan, garanciával, rövid határidővel">
+
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+    <title>Pátyod Klíma</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/cookies.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons by Google Material Symbols – Licensed under Apache 2.0 -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <dialog class="cookie-panel" aria-labelledby="CookieTitle">
+        <header>
+            <img src="./icons/cookie.svg" alt="Süti ikon">
+            <h2>Cookie tájékoztató</h2>
+        </header>
+
+        <div class="data">
+            <p>
+                Az oldal a jobb felhasználói élmény érdekében sütiket használ.
+                További tudnivalók: <a href="./assets/patyodklima-adatkezelesi-tajekoztato.pdf" target="_blank">Adatkezelési tájékoztató</a>
+            </p>
+        </div>
+
+        <div class="cookie-btns">
+            <button class="button" aria-label="Sütik elfogadása" id="acceptBtn">Elfogad</button>
+            <button class="button" aria-label="Sütik elutasítása" id="rejectBtn">Elutasít</button>
+        </div>
+    </dialog>
+
+    <header>
+        <div class="nav-container">
+            <nav id="navbar" role="navigation">
+                <a href="#"><img src="./images/logo.avif" class="logo" alt="Pátyod Klíma - klímaszerelés, karbantartás, ingyenes felmérés!"></a>
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#hero">Rólunk</a></li>
+                    <li><a class="nav-link" href="#services">Szolgáltatásaink</a></li>
+                    <li><a class="nav-link" href="#reference">Referencia</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <a class="btn-contact" href="#contact">Kapcsolat</a>
+                    <div class="theme-switch">
+                        <img class="darkmode-img" src="./icons/light-blue.svg" alt="Sötét mód és világos mód váltása">
+                    </div>
+                </div>
+                <button class="hamburger" aria-label="Menü megnyitása">
+                    <img src="./icons/hamburger.svg" alt="Menü megnyitása">
+                </button>
+            </nav>
+        </div>
+
+        <div class="nav-mobile">
+            <img class="close-btn" src="./icons/close.svg" alt="Menü bezárása" aria-label="Menü bezárása">
+            <ul class="mobile-nav-menu">
+                <li><a class="mobile-nav-link" href="#hero">Rólunk</a></li>
+                <li><a class="mobile-nav-link" href="#services">Szolgáltatásaink</a></li>
+                <li><a class="mobile-nav-link" href="#reference">Referencia</a></li>
+            </ul>
+            <div class="mobile-navbar-right">
+                <a class="mobile-btn-contact" href="#contact">Kapcsolat</a>
+                <div class="theme-switch">
+                    <img class="darkmode-img" src="./icons/light-blue.svg" alt="Sötét mód és világos mód váltása">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-left">
+                <h1>Téli melegség, nyári frissesség!</h1>
+                <div class="hero-text">
+                    <p class="hero-description">
+                        Teljeskörű klímaszolgáltatás Pátyodon és 30 km-es körzetében.
+                        <span>Telepítés</span>, <span>karbantartás</span>, <span>tisztítás</span> &mdash;
+                        <mark>rövid határidővel</mark>, <mark>megbízhatóan</mark>, <mark>garanciával</mark>.
+                    </p>
+                    <p class="hero-description">
+                        Többféle típusú készüléket kínálunk különböző igényekhez és árkategóriákhoz.
+                    </p>
+                    <a class="hero-btn" href="#contact">Foglalj időpontot most!</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="./images/heroImg.avif" alt="Beltéri egység telepítése, karbantartása" loading="lazy">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="sub-title">Szolgáltatásaink</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__inner">
+                        <div class="card__face card__face--front">
+                            <img src="./images/felmeres.avif" alt="Díjmentes felmérés" loading="lazy">
+                            <div class="overlay">
+                                <h3>Díjmentes felmérés</h3>
+                                <button class="btn-more">
+                                    Bővebben
+                                    <img src="./icons/up.svg" alt="Bővebben ikon">
+                                    <img src="./icons/up-blue.svg" alt="Kék bővebben ikon">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <img src="./icons/assignment.svg" alt="Díjmentes felmérés ikon" class="back-icon">
+                                    <h3>Díjmentes felmérés</h3>
+                                </div>
+                                <div class="card__body">
+                                    <p>
+                                        Az előzetes egyeztetést követően személyesen mérjük fel
+                                        a helyszínt, hogy pontos ajánlatot adhassunk.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__inner">
+                        <div class="card__face card__face--front">
+                            <img src="./images/telepites.avif" alt="Teljeskörű telepítés" loading="lazy">
+                            <div class="overlay">
+                                <h3>Teljeskörű telepítés</h3>
+                                <button class="btn-more">
+                                    Bővebben
+                                    <img src="./icons/up.svg" alt="Bővebben ikon">
+                                    <img src="./icons/up-blue.svg" alt="Kék bővebben ikon">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <img src="./icons/handyman.svg" alt="Teljeskörű telepítés ikon" class="back-icon">
+                                    <h3>Teljeskörű telepítés</h3>
+                                </div>
+                                <div class="card__body">
+                                    <p>
+                                        Vállaljuk klímaberendezések szakszerű telepítését.
+                                        A készüléket precízen, az Ön igényeihez igazodva helyezzük
+                                        üzembe, hogy hosszú távon megbízhatóan működjön.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__inner">
+                        <div class="card__face card__face--front">
+                            <img src="./images/karbantartas.avif" alt="Karbantartás" loading="lazy">
+                            <div class="overlay">
+                                <h3>Karbantartás</h3>
+                                <button class="btn-more">
+                                    Bővebben
+                                    <img src="./icons/up.svg" alt="Bővebben ikon">
+                                    <img src="./icons/up-blue.svg" alt="Kék bővebben ikon">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <img src="./icons/cleaning.svg" alt="" class="back-icon">
+                                    <h3>Karbantartás</h3>
+                                </div>
+                                <div class="card__body">
+                                    <p>
+                                        Szakemberünk gondoskodik klímája rendszeres karbantartásáról
+                                        és tisztításáról &mdash; így nemcsak hatékonyabban működik, hanem a
+                                        levegő is tisztább marad.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reference">
+            <div class="reference-container">
+                <h2 class="sub-title">Referencia</h2>
+                <div class="ref-bg"></div>
+                <div class="container swiper" loading="lazy">
+                    <div class="card-wrapper">
+                        <ul class="card-list swiper-wrapper">
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/reference4.avif" alt="Ande klíma készülék telepítése" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">ANDE Klíma telepítése &mdash; Pátyod, 2025</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/reference1.avif" alt="Pátyod, vegyesbolt klimatizálása" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">Pátyod, vegyesbolt klimatizálása &mdash; AUX beltéri
+                                            készülék</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/reference1-1.avif" alt="Pátyod, vegyesbolt klimatizálása" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">Pátyod, vegyesbolt klimatizálása &mdash; AUX kültéri
+                                            készülék</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/reference2.avif" alt="Tisztítás" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">Tisztítás</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/FB_IMG_1755713326910.avif" alt="Hálószoba hűtése és fűtése AUX készülékkel" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">Hálószoba hűtése és fűtése AUX készülékkel</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="card-item swiper-slide">
+                                <div class="card-link">
+                                    <img src="./images/FB_IMG_1755713334043.avif" alt="AUX készülék padlástéren" class="card-image">
+                                    <div class="reference-hover">
+                                        <h3 class="card-title">AUX készülék padlástéren</h3>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-slide-button swiper-button-prev" aria-label="Előző referencia"></div>
+                        <div class="swiper-slide-button swiper-button-next" aria-label="Következő referencia"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <!-- Photo by Irvin Zheng on Unsplash-->
+            <div class="content">
+                <h2 class="sub-title">Elérhetőségeink</h2>
+                <div class="contacts">
+                    <div class="contact">
+                        <img src="./icons/call.svg" alt="Hívás ikon">
+                        <p><span>06 30 629 0793 <br>06 20 291 7629</span></p>
+                    </div>
+                    <div class="contact con-btn">
+                        <a href="https://www.facebook.com/profile.php?id=61577473041862" target="_blank">
+                            <img src="./icons/like.svg" alt="Like ikon">
+                            <p>Kövess Facebookon!</p>
+                        </a>
+                    </div>
+                    <div class="contact con-btn">
+                        <a href="mailto:klima.patyod@gmail.com">
+                            <img src="./icons/mail.svg" alt="Mail ikon">
+                            <img src="./icons/mail_blue.svg" alt="Kék mail ikon">
+                            <p>Írj nekünk e-mailt!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill-opacity="1"
+                        d="M0,160L80,170.7C160,181,320,203,480,202.7C640,203,800,181,960,170.7C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-top">
+            <div class="footer-left">
+                <div class="footer-p">
+                    <img src="./icons/like.svg" alt="Like ikon">
+                    <a href="https://www.facebook.com/profile.php?id=61577473041862" target="_blank">
+                        <p>Facebook oldalunk</p>
+                    </a>
+                </div>
+                <div class="footer-p">
+                    <img src="./icons/admin_panel.svg" alt="Adatvédelmi tájékoztató ikon">
+                    <a href="./assets/patyodklima-adatkezelesi-tajekoztato.pdf" target="_blank">Adatkezelési tájékoztató</a>
+                </div>
+            </div>
+            <div class="footer-mid">
+                <a href="#"><img src="./images/footerLogo.avif" alt="Pátyod klíma logo" loading="lazy"></a>
+            </div>
+            <div class="footer-right">
+                <div class="footer-p">
+                    <img src="./icons/call.svg" alt="Hívás ikon">
+                    <p>06 30 629 0793 <br> 06 20 291 7629</p>
+                </div>
+                <div class="footer-p">
+                    <img src="./icons/mail.svg" alt="Mail ikon">
+                    <a href="mailto:klima.patyod@gmail.com?subject=Contact%20Request">
+                        <p>klima.patyod@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Fejlesztette: Daróczi Levente</p>
+            <p>Pátyod Klíma &copy; 2025 | Minden jog fenntartva!</p>
+            <p>Verzió: v1.1.0</p>
+        </div>
+    </footer>
+    
+
+    <button id="scroll-up">
+        <img src="./icons/up.svg" alt="">
+        <img src="./icons/up-blue.svg" alt="">
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
