@@ -16,6 +16,17 @@ window.addEventListener('load', () => {
 acceptBtn.addEventListener('click', () => {
   document.cookie = "cookie_consent=Quizzy; max-age=" + 60 * 60 * 24 * 30;
   cookiePanel.classList.remove("show");
+
+  const gaScript = document.getElementById('gtag-script');
+
+  if (gaScript && !gaScript.src) {
+    gaScript.src = gaScript.dataset.src;
+
+    gaScript.onload = () => {
+      gtag('js', new Date());
+      gtag('config', 'G-8ME9DQ3SZK');
+    }
+  }
 });
 
 rejectBtn.addEventListener('click', () => {
