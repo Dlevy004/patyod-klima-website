@@ -36,19 +36,19 @@
     <dialog class="cookie-panel" aria-labelledby="CookieTitle">
         <header>
             <img src="./icons/cookie.svg" alt="Süti ikon">
-            <h2>Cookie tájékoztató</h2>
+            <h2 id="CookieTitle">Cookie tájékoztató</h2>
         </header>
 
         <div class="data">
             <p>
                 Az oldal a jobb felhasználói élmény érdekében sütiket használ.
-                További tudnivalók: <a href="./assets/patyodklima-adatkezelesi-tajekoztato.pdf" target="_blank">Adatkezelési tájékoztató</a>
+                További tudnivalók: <a rel="noopener noreferrer" href="./assets/patyodklima-adatkezelesi-tajekoztato.pdf" target="_blank">Adatkezelési tájékoztató</a>
             </p>
         </div>
 
         <div class="cookie-btns">
-            <button class="button" aria-label="Sütik elfogadása" id="acceptBtn">Elfogad</button>
-            <button class="button" aria-label="Sütik elutasítása" id="rejectBtn">Elutasít</button>
+            <button class="button" id="acceptBtn">Elfogad</button>
+            <button class="button" id="rejectBtn">Elutasít</button>
         </div>
     </dialog>
 

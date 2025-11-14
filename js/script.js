@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
 });
 
 acceptBtn.addEventListener('click', () => {
-  document.cookie = "cookie_consent=Quizzy; max-age=" + 60 * 60 * 24 * 30;
+  document.cookie = "cookie_consent=Patyod-Klima; max-age=" + 60 * 60 * 24 * 30;
   cookiePanel.classList.remove("show");
 
   const gaScript = document.getElementById('gtag-script');
