@@ -54,6 +54,10 @@ ul, ol {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--bg-color-primary);
     color: var(--text-color2);
@@ -862,4 +866,8 @@ body.darkmode .theme-switch {
 .footer-container a {
     text-decoration: none;
     color: var(--pg-color);
+}
+
+.contact p a {
+    color: var(--bg-color-primary);
 }
