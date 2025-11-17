@@ -133,10 +133,6 @@
         font-size: 3.5rem;
     }
 
-    .contact p, .contact a p {
-        font-size: 2.25rem;
-    }
-
     .con-btn:last-child a {
         padding: 1rem 2.5rem;
     }
@@ -541,10 +537,6 @@
         scale: 1;
     }
 
-    .contact p, .contact a p {
-        font-size: clamp(1rem, 3vw, 2rem);
-    }
-
     .content .sub-title {
         margin: clamp(1%, 10vw, 3%) auto;
     }
@@ -626,10 +618,6 @@
 
     .contact img, .con-btn a img {
         scale: 1.2;
-    }
-
-    .contact p, .contact a p {
-        font-size: clamp(1rem, 5vw, 2rem);
     }
 
     .contacts .con-btn a {

@@ -723,11 +723,6 @@ body.darkmode .theme-switch {
     color: var(--pg-color);
 }
 
-.contact p, .contact a p {
-    font-size: var(--fs-p);
-    white-space: nowrap;
-}
-
 .contacts .con-btn a {
     text-decoration: none;
     color: var(--pg-color);
