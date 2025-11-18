@@ -15,14 +15,17 @@ Az oldal jelenleg is fut, és elérhető az alábbi címen:
 
 ## ✨ Főbb Jellemzők
 
-- ✅ **Teljesen Reszponzív Design**
+- ✅ **Reszponzív Design:** Desktop-first megközelítéssel készült, minden eszközön tökéletesen jelenik meg.
 - 🌗 **Dark Mode / Light Mode**
-- 🍪 **Cookie Panel**
+- 🍪 **Cookie Panel:** GDPR kompatibilis panel, Google Analytics vezérléssel.
 - 🔄 **Interaktív Elemek**
-- 🎠 **Referencia Galéria**
-- 📈 **Google Analytics Integráció**
+- 🎠 **Referencia Galéria:** Érintés-barát lapozható galéria (Swiper.js).
+- ♿ **Akadálymentesítés:** Billentyűzettel navigálható felület és szemantikus felépítés.
+- 📈 **Teljesítmény Optimalizált:** Lazy loading, optimalizált képek és kódstruktúra.
 
 ## 🛠️ Felhasznált Technológiák
 A projekt "vanilla" technológiákra épül, amivel elsődleges célom, hogy jobban megerősítsem a webfejlesztési alapjaimat.
 
-<p style="text-align: left"> <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <a href="https://swiperjs.com/"><img alt="Swiper.js" src="https://img.shields.io/badge/-Swiper.js-6332F6?style=for-the-badge"></a> <img alt="Figma" src="https://img.shields.io/badge/-Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=black"></p>
+<p> <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <a href="https://swiperjs.com/"><img alt="Swiper.js" src="https://img.shields.io/badge/-Swiper.js-6332F6?style=for-the-badge"></a> <img alt="Figma" src="https://img.shields.io/badge/-Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=black"></p>
+
+<p align="center">Pátyod Klíma &copy; 2025 | Minden jog fenntartva!</p>
