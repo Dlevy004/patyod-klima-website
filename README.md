@@ -1,8 +1,8 @@
-<p style="text-align: center"> <img src="./images/logo.avif" alt="Pátyod Klíma Logó" width="200"> </p>
+<p align="center"> <img src="./images/logo.avif" alt="Pátyod Klíma Logó" width="200"> </p>
 
-<h1 style="text-align: center">Pátyod Klíma Weboldal</h1>
+<h1 align="center">Pátyod Klíma Weboldal</h1>
 
-<p style="text-align: center"> <img alt="Verzió" src="https://img.shields.io/badge/verzi%C3%B3-v1.1.0-blue?style=for-the-badge"> <img alt="Státusz" src="https://img.shields.io/badge/st%C3%A1tusz-k%C3%A9sz%20%26%20%C3%A9l%C5%91-brightgreen?style=for-the-badge"> </p>
+<p align="center"> <img alt="Verzió" src="https://img.shields.io/badge/verzi%C3%B3-v1.1.0-blue?style=for-the-badge"> <img alt="Státusz" src="https://img.shields.io/badge/st%C3%A1tusz-k%C3%A9sz%20%26%20%C3%A9l%C5%91-brightgreen?style=for-the-badge"> </p>
 
 Ez a weboldal a **Pátyod Klíma** számára készült, egy klímaszereléssel és -karbantartással foglalkozó vállalkozás részére.
 
