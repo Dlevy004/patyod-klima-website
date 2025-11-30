@@ -1,3 +1,4 @@
+/*Scrollbar*/
 ::-webkit-scrollbar {
     width: 0.8rem;
 }
@@ -11,6 +12,7 @@
     border-radius: 20px;
 }
 
+/*Scroll Up button*/
 #scroll-up {
     position: fixed;
     bottom: 20px;
@@ -54,6 +56,7 @@
     display: block;
 }
 
+/*Navbar*/
 .nav-container {
     display: flex;
     align-items: center;
@@ -207,6 +210,7 @@ body.darkmode .theme-switch {
     display: none;
 }
 
+/*Hero section*/
 #hero {
     width: 98%;
     max-height: 96dvh;
@@ -309,6 +313,7 @@ body.darkmode .theme-switch {
     box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.252);
 }
 
+/*Services section*/
 #services {
     background: var(--bg-color-secondary1);
     height: auto;
@@ -487,6 +492,7 @@ body.darkmode .theme-switch {
     text-align: left;
 }
 
+/*Reference section*/
 #reference {
     scroll-margin-top: clamp(3rem, 3vw, 8rem);
     height: auto;
@@ -605,6 +611,7 @@ body.darkmode .theme-switch {
     border-radius: 50%;
 }
 
+/*Contact section*/
 #contact {
     background-image: 
     linear-gradient(to bottom, hsla(202, 72%, 47%, 0.5), rgba(255, 255, 255, 0)),
@@ -696,6 +703,7 @@ body.darkmode .theme-switch {
     display: none;
 }
 
+/*Footer wave*/
 .footer-wave {
     top: 0;
     width: 100%;
@@ -710,6 +718,7 @@ body.darkmode .theme-switch {
     height: auto;
 }
 
+/*Footer*/
 .footer-container {
     width: 100%;
     height: auto;
