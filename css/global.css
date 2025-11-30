@@ -65,3 +65,17 @@ body {
     overflow-x: hidden;
     transition: all 0.3s ease;
 }
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(202, 72%, 47%, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
