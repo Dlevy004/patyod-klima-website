@@ -1,46 +1,44 @@
 /*Scroll Up button*/
 #scroll-up {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 55px;
-    height: 55px;
+    z-index: 99;
+
+    bottom: clamp(10px, 3vw, 20px);
+    right: clamp(10px, 3vw, 20px);
+
+    width: clamp(3rem, 4.5vw, 5rem);
+    height: clamp(3rem, 4.5vw, 5rem);
+
     background-color: #228fce;
-    z-index: 9;
+    border-radius: 100%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    
     display: none;
     align-items: center;
     justify-content: center;
-    border-radius: 100%;
-    border: 3px solid transparent;
-    transition: all 0.3s ease-in;
-    cursor: pointer;
+
+    transition: all 0.2s ease-in;
 }
 
 #scroll-up:is(:hover, :focus, :active) {
     background-color: #f2f2f2;
     border: 3px solid #228fce;
+    transform: scale(1.1);
 }
 
-#scroll-up img:first-of-type, #scroll-up img:last-of-type {
-    scale: 1.5;
+#scroll-up img {
+    width: 75%;
     transition: scale 0.3s ease;
 }
 
-#scroll-up img:first-of-type {
-    display: block;
-}
+#scroll-up img:first-of-type { display: block; }
 
-#scroll-up img:last-of-type {
-    display: none;
-}
+#scroll-up img:last-of-type { display: none; }
 
-#scroll-up:is(:hover, :focus, :active) img:first-of-type {
-    display: none;
-}
+#scroll-up:is(:hover, :focus, :active) img:first-of-type { display: none; }
 
-#scroll-up:is(:hover, :focus, :active) img:last-of-type {
-    display: block;
-}
+#scroll-up:is(:hover, :focus, :active) img:last-of-type { display: block; }
 
 /*Navbar*/
 .nav-container {

@@ -1,15 +1,4 @@
 @media (min-width: 2560px) {
-    #scroll-up {
-        bottom: 50px;
-        right: 50px;
-        min-width: 6rem;
-        min-height: 6rem;
-    }
-
-    #scroll-up img:first-of-type, #scroll-up img:last-of-type {
-        scale: 2.25;
-    }
-
     .nav-menu li a {
         font-size: clamp(2rem, 1vw, 2.25rem);
     }
@@ -157,15 +146,6 @@
 @media (max-width: 1024px) {
     .hero-left, .hero-right {
         margin: 15% 0;
-    }
-    
-    #scroll-up {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    #scroll-up img:first-of-type, #scroll-up img:last-of-type {
-        scale: 1.2;
     }
 
     .nav-menu li a, .btn-contact {
@@ -759,11 +739,6 @@
 }
 
 @media (max-width: 376px) {
-    #scroll-up {
-        bottom: 10px;
-        right: 10px;
-    }
-
     .nav-mobile {
         width: 65%;
     }
