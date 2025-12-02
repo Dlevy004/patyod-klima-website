@@ -1,12 +1,4 @@
 @media (min-width: 2560px) {
-    .nav-menu li a {
-        font-size: clamp(2rem, 1vw, 2.25rem);
-    }
-    
-    .btn-contact {
-        font-size: clamp(2rem, 1vw, 2.25rem);
-    }
-
     #hero {
         min-height: 75dvh;
         padding: 0 8rem; 
@@ -144,39 +136,152 @@
 }
 
 @media (max-width: 1024px) {
+    /*Navbar*/
+    .nav-menu, .navbar-right { display: none; }
+    
+    .hamburger {
+        display: block;
+        border: none;
+        
+        width: clamp(2.5rem, 2vw, 5rem);
+        height: clamp(2.5rem, 2vw, 5rem);
+        margin-right: 0.3rem;
+        cursor: pointer;
+        
+        background-color: var(--bg-color-ternary);
+        border-radius: 50%;
+    }
+
+    .hamburger img {
+        height: auto;
+        width: 70%;
+    }
+
+    .nav-mobile {
+        position: fixed;
+        width: min(65%, 350px);
+        height: 100dvh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: flex-start;
+        gap: 3rem;
+        padding-bottom: 2rem;
+        
+        right: -100%;
+        top: 0px;
+        z-index: 10;
+        
+        background: var(--mobile-bg-color);
+        box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+        border-left: none;
+        
+        transition: right 0.4s ease-out;
+    }
+    
+    .nav-mobile.show { right: 0px; }
+    
+    .nav-mobile .close-btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        
+        width: 2rem;
+        height: 2rem;
+        
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        background: transparent;
+        
+        top: clamp(25px, 3vw, 35px);
+        right: clamp(25px, 3vw, 35px);
+    }
+    
+    .nav-mobile .close-btn img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .mobile-nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1.5rem;
+        
+        width: 100%;
+        box-sizing: border-box;
+        
+        font-size: var(--fs-h3);
+        margin: clamp(20%, 15vh, 40%) 0 0 0;
+        padding-right: clamp(25px, 3vw, 35px);
+    }
+    
+    .mobile-nav-menu .mobile-nav-link {
+        color: var(--text-color1);
+        text-decoration: none;
+    }
+    
+    .mobile-navbar-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        flex: 1;
+        height: auto;
+        box-sizing: border-box;
+        gap: 2rem;
+        padding-right: clamp(25px, 3vw, 35px);
+    }
+    
+    .mobile-btn-contact {
+        height: auto;
+        padding: clamp(0.5em, 1vw, 0.9em) clamp(1em, 2vw, 1.5em);
+        
+        border: 3px solid transparent;
+        border-radius: 50px;
+        
+        background-color: var(--bg-color-ternary);
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: var(--fs-p);
+        font-weight: bold;
+        white-space: nowrap;
+        
+        transition: all 0.2s ease-in;
+    }
+    
+    .mobile-btn-contact:hover {
+        background-color: #f2f2f2;
+        border: 3px solid var(--primary-color);
+        color: var(--primary-color);
+    }
+    
+    .theme-switch {
+        transform: rotate(0deg);
+        overflow: visible;
+    }
+    
+    .theme-switch img {
+        transform: rotate(0deg);
+        padding: 5%;
+    }
+
+    /*Hero section*/
     .hero-left, .hero-right {
         margin: 15% 0;
     }
-
-    .nav-menu li a, .btn-contact {
-        font-size: clamp(1rem, 1.5vw, 1.25rem);
-    }
-
-    .nav-menu li {
-        margin: 0 clamp(0.7rem, 2vw, 1rem); 
-    }
-
-    .theme-switch {
-        height: clamp(1rem, 2.5vw, 2rem);
-        width: clamp(1rem, 4.5vw, 4rem);
-    }
-
-    .theme-switch img {
-        left: clamp(1px, 0.5vw, 2px);
-    }
     
-    body.darkmode .theme-switch img {
-        left: calc(100% - clamp(1rem, 1.8vw, 1.3rem) - clamp(1.8px, 0.4vw, 3.7px));
-    }
-
     .hero-btn {
         font-size: clamp(0.8rem, 1vw, 1.2rem);
     }
-
+    
     .hero-right img {
         aspect-ratio: 1/1;
     }
-
+    
     .sub-title {
         font-size: 2rem;
     }
@@ -267,124 +372,6 @@
 }
 
 @media (max-width: 768px) {
-    .nav-menu, .navbar-right {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2.5px solid #f2f2f2;
-        
-        width: 47.5px;
-        height: 47.5px;
-        margin-right: 0.25rem;
-        cursor: pointer;
-        
-        background-color: var(--bg-color-ternary);
-        border-radius: 50%;
-    }
-
-    .nav-mobile {
-        display: block;
-        position: fixed;
-        width: 60%;
-        height: 100dvh;
-        background: var(--mobile-bg-color);
-        right: -1000px;
-        top: 0px;
-        z-index: 10;
-        border-left: 5px solid #f2f2f2;
-        transition: right 0.5s ease-out;
-    }
-    
-    .nav-mobile.show {
-        right: 0px;
-    }
-    
-    .nav-mobile img:first-of-type {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        scale: 1.5;
-        position: absolute;
-        right: 3.45rem;
-        top: 3rem;
-        cursor: pointer;
-    }
-
-    .mobile-nav-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        justify-content: center;
-        font-size: var(--fs-h3);
-        margin: 50% 10% 20px 0;
-        gap: 20px;
-    }
-    
-    .mobile-nav-menu .mobile-nav-link {
-        color: var(--primary-color);
-        text-decoration: none;
-        text-align: right;
-    }
-    
-    .mobile-navbar-right {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        justify-content: space-between;
-        min-height: 45%;
-        max-height: 55%;
-        margin: 0 10% 10% 0;
-    }
-    
-    .mobile-btn-contact {
-        height: auto;
-        padding: 0.5rem 1rem;
-        
-        border: 3px solid transparent;
-        border-radius: 50px;
-        background-color: #228fce;
-        
-        text-decoration: none;
-        color: #f2f2f2;
-        font-size: var(--fs-h3);
-        font-weight: bold;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 0.2s ease-in-out;
-    }
-    
-    .mobile-btn-contact:hover {
-        background-color: #f2f2f2;
-        border: 3px solid var(--primary-color);
-        color: var(--primary-color);
-    }
-
-    .theme-switch {
-        transform: rotate(0deg) translateY(-20%);
-        margin-right: 0;
-        overflow: visible;
-        height: 1.2rem;
-        width: 2.5rem;
-    }
-    
-    .theme-switch img {
-        left: 5px;
-        transform: rotate(0deg) translateY(-280%);
-        height: clamp(0.65rem, 1vw, 1rem);
-        width: clamp(0.65rem, 1vw, 1rem);
-        padding: clamp(1px, 0.3vw, 3px);
-    }
-    
-    body.darkmode .theme-switch img {
-        left: 25px;
-    }
-
     #hero {
         background-color: var(--primary-color);
         border-radius: 20px;
@@ -648,27 +635,6 @@
 }
 
 @media (max-width: 426px) {
-    .nav-mobile {
-        width: 70%;
-    }
-
-    .nav-mobile img:first-of-type {
-        right: 2.4rem;
-    }
-
-    .mobile-nav-menu {
-        font-size: var(--fs-h3);
-        margin: 40% 10% 20px 0;
-    }
-
-    .mobile-navbar-right {
-        height: 55%;
-    }
-
-    .mobile-btn-contact {
-        font-size: var(--fs-h3);
-    }
-
     .hero-title {
         font-size: clamp(2rem, 10vw, 4.5rem);
     }
@@ -739,31 +705,6 @@
 }
 
 @media (max-width: 376px) {
-    .nav-mobile {
-        width: 65%;
-    }
-
-    .nav-mobile img:first-of-type {
-        right: 2.1rem;
-        top: 2.75rem;
-    }
-
-    .mobile-nav-menu {
-        margin-top: 45%;
-    }
-
-    .mobile-navbar-right {
-        height: 57.5%;
-    }
-
-    .mobile-btn-contact {
-        font-size: var(--fs-h3)
-    }
-
-    .theme-switch img {
-        transform: rotate(0deg) translateY(-255%);
-    }
-
     #hero {
         width: 96%;
     }
@@ -783,29 +724,6 @@
 }
 
 @media (max-width: 321px) {
-    .hamburger {
-        width: 45px;
-        height: 45px;
-    }
-
-    .nav-mobile {
-        width: 70%;
-    }
-
-    .theme-switch img {
-        transform: rotate(0deg) translateY(-195%);
-    }
-
-    .nav-mobile img:first-of-type {
-        right: 1.9rem;
-        top: 2.2rem
-    }
-
-    .mobile-nav-menu {
-        font-size: var(--fs-h3);
-        margin: 45% 10% 20px 0;
-    }
-
     .hero-btn {
         padding: 0.75rem 1.2rem;
         font-size: clamp(0.5rem, 4vw, 1.5rem);
