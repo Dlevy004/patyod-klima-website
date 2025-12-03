@@ -1,36 +1,4 @@
 @media (min-width: 2560px) {
-    #hero {
-        min-height: 75dvh;
-        padding: 0 8rem; 
-    }
-
-    .hero-title {
-        font-size: clamp(1.75rem, 5vw, 7rem);
-    }
-
-    .hero-left {
-        max-width: 60%;
-        gap: 3rem;
-    }
-
-    .hero-right {
-        width: 60%;
-    }
-
-    .hero-text {
-        gap: 30px;
-    }
-
-    .hero-description {
-        font-size: clamp(1rem, 1.8vw, 2rem);
-    }
-
-    .hero-btn {
-        font-size: clamp(1rem, 1.8vw, 2.2rem);
-        padding: 2rem;
-        width: clamp(175px, 45%, 450px);
-    }
-
     .sub-title {
         font-size: 3.5rem;
     }
@@ -116,6 +84,13 @@
 
     .con-btn:last-child a {
         padding: 1rem 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    /*Hero section*/
+    .hero-description {
+        font-size: calc(var(--fs-p) * 1.1);
     }
 }
 
@@ -252,19 +227,6 @@
         transform: rotate(0deg);
         padding: 5%;
     }
-
-    /*Hero section*/
-    .hero-left, .hero-right {
-        margin: 15% 0;
-    }
-    
-    .hero-btn {
-        font-size: clamp(0.8rem, 1vw, 1.2rem);
-    }
-    
-    .hero-right img {
-        aspect-ratio: 1/1;
-    }
     
     .sub-title {
         font-size: 2rem;
@@ -336,56 +298,9 @@
 }
 
 @media (max-width: 768px) {
-    #hero {
-        background-color: var(--primary-color);
-        border-radius: 20px;
-        height: auto;
-        display: flex;
+    /*Hero section*/
+    .hero-main {
         flex-direction: column;
-        align-items: start;
-        justify-content: space-evenly;
-        padding-bottom: 0;
-    }
-
-    .hero-left {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        gap: 1rem;
-        margin: 17.5% 0 5% 0;
-    }
-
-    .hero-right {
-        margin: 0 auto 7.5% auto;
-    }
-
-    .hero-title {
-        font-size: clamp(2rem, 6vw, 4.5rem);
-        font-weight: 700;
-        color: #f2f2f2;
-    }
-
-    .hero-description {
-        font-size: clamp(0.8rem, 2vw, 2rem);
-    }
-
-    .hero-btn {
-        padding: 0.75rem 0.6rem;
-        font-size: clamp(0.8rem, 2vw, 1.5rem);
-        width: clamp(175px, 35%, 350px);
-    }
-
-    .hero-btn:hover {
-        background-color: var(--bg-hover-color);
-        border: 3px solid var(--secondary-color);
-        color: var(--secondary-color);
-    }
-
-    .hero-right img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        aspect-ratio: 16/10;
     }
 
     .cards {
@@ -481,18 +396,6 @@
 }
 
 @media (max-width: 550px) {
-    .hero-left {
-        margin: 20% 0 10% 0;
-    }
-
-    .hero-right {
-        margin: 0 0 15% 0;
-    }
-
-    .hero-right img {
-        aspect-ratio: 4/3;
-    }
-
     #contact {
         min-height: 80dvh;
         background-image: 
@@ -539,7 +442,6 @@
         gap: 7.5%
     }
 
-    /*#region*/
     /*Footer*/
     .footer-top {
         display: flex;
@@ -564,31 +466,9 @@
     }
 
     .footer-p a, .footer-p p { font-size: var(--fs-p); }
-    /*#endregion*/
 }
 
 @media (max-width: 426px) {
-    .hero-title {
-        font-size: clamp(2rem, 10vw, 4.5rem);
-    }
-
-    .hero-description {
-        font-size: clamp(1rem, 3.5vw, 2rem);
-    }
-
-    .hero-btn {
-        padding: 0.5rem;
-        font-size: clamp(0.9rem, 1vw, 1.5rem);
-    }
-
-    .hero-left {
-        margin-top: 27.5%;
-    }
-
-    .hero-right img {
-        aspect-ratio: 16/10;
-    }
-
     .sub-title {
         font-size: 1.6rem;
     }
@@ -625,12 +505,9 @@
 }
 
 @media (max-width: 376px) {
+    /*Hero section*/
     #hero {
         width: 96%;
-    }
-
-    .hero-left {
-        margin: 25% 0 7.5% 0;
     }
 
     #services {
@@ -644,20 +521,6 @@
 }
 
 @media (max-width: 321px) {
-    .hero-btn {
-        padding: 0.75rem 1.2rem;
-        font-size: clamp(0.5rem, 4vw, 1.5rem);
-        width: 80%;
-    }
-
-    .hero-left {
-        margin: 30% 0 5% 0;
-    }
-
-    .hero-description {
-        font-size: clamp(0.75rem, 4vw, 1.5rem);
-    }
-    
     .card {
         min-width: 280px;
         height: 350px;
