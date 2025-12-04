@@ -618,7 +618,6 @@ body.darkmode .theme-switch {
 
 .card-wrapper .swiper-button-next { right: 0; }
 
-/*#region*/
 /*Contact section*/
 #contact {
     position: relative;
@@ -720,7 +719,6 @@ body.darkmode .theme-switch {
     width: 100%;
     height: auto;
 }
-/*#endregion*/
 
 /*Footer*/
 .footer-container {
