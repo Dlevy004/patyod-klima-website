@@ -18,8 +18,6 @@
     --fs-h3: clamp(1.25rem, 1.1785714285714286rem + 0.35714285714285715vw, 1.75rem);
     --fs-p: clamp(1rem, 0.9642857142857143rem + 0.17857142857142858vw, 1.25rem);
 
-    --img-size: clamp(3rem, 5vw, 4rem);
-
     --primary-font-family: 'Josefin sans', 'sans-serif';
 }
 
@@ -49,31 +47,22 @@ html {
     box-sizing: border-box;
 }
 
-ul, ol {
-    list-style: none;
-}
+ul, ol { list-style: none; }
 
-a {
-    text-decoration: none;
-}
+a { text-decoration: none; }
 
 body {
     background-color: var(--bg-color-primary);
     color: var(--text-color2);
-    font-size: clamp(1.5rem, 1.25vw, 2rem);
     font-family: var(--primary-font-family);
     overflow-x: hidden;
     transition: all 0.3s ease;
 }
 
 /*Scrollbar*/
-::-webkit-scrollbar {
-    width: 0.8rem;
-}
+::-webkit-scrollbar { width: 0.8rem; }
 
-::-webkit-scrollbar-track {
-    background: hsl(202, 72%, 47%, 0.4);
-}
+::-webkit-scrollbar-track { background: hsl(202, 72%, 47%, 0.4); }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);

@@ -657,6 +657,7 @@ body.darkmode .theme-switch {
 #contact .sub-title {
     text-align: left;
     width: 100%;
+    color: black;
 }
 
 .contacts {
