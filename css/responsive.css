@@ -1,39 +1,4 @@
 @media (min-width: 2560px) {
-    #reference {
-        padding: 5% 0 10% 0;
-    }
-
-    .card-wrapper {
-        width: 2000px;
-        height: auto;
-        margin: 40px 120px 40px;
-    }
-
-    .card-list .card-item .card-link {
-        width: 610px;
-        height: 610px;
-    }
-
-    .card-list .card-link .card-title {
-        font-size: 2rem;
-    }
-
-    .card-wrapper .swiper-pagination-bullet {
-        height: 15px;
-        width: 15px;
-    }
-
-    .card-wrapper .swiper-slide-button {
-            scale: 0.75;
-        padding: 60px;
-        border-radius: 60%;
-    }
-
-    .ref-bg {
-        top: 73%;
-        height: 200px;
-    }
-
     #contact {
         height: 80vh;
     }
@@ -193,22 +158,9 @@
         padding: 5%;
     }
 
-    .card-wrapper {
-        width: clamp(550px, 85vw, 800px);
-        margin: 40px clamp(60px, 8vw, 80px) 40px;
-    }
-
-    .card-list .card-link .card-title {
-        font-size: var(--fs-h3);
-    }
-
-    .card-wrapper .swiper-pagination-bullet {
-        height: 8px;
-        width: 8px;
-    }
-
+    /*Reference section*/
     .card-wrapper .swiper-slide-button {
-        scale: 0.4;
+        display: none;
     }
 
     .contact {
@@ -228,36 +180,6 @@
     /*Hero section*/
     .hero-main {
         flex-direction: column;
-    }
-
-    .card-wrapper {
-        width: clamp(200px, 80vw, 500px);
-        margin: 40px auto 40px;
-    }
-    
-    .card-list .card-item .card-link {
-        min-width: 150px;
-        min-height: 150px;
-        max-width: 500px;
-        max-height: 500px;
-    }
-
-    .card-list .card-link .card-title {
-        font-size: var(--fs-h3);
-    }
-    
-    .card-wrapper .swiper-pagination-bullet {
-        height: 8px;
-        width: 8px;
-    }
-    
-    .card-wrapper .swiper-slide-button {
-        display: none;
-    }
-    
-    .ref-bg {
-        top: 62%;
-        height: 120px;
     }
 
     #contact {
@@ -351,21 +273,6 @@
     }
 
     .footer-p a, .footer-p p { font-size: var(--fs-p); }
-}
-
-@media (max-width: 426px) {
-    #reference {
-        padding-top: 15%;
-    }
-    
-    .card-wrapper {
-        width: 300px;
-    }
-    
-    .card-list .card-item .card-link {
-        width: 280px;
-        height: 280px;
-    }
 }
 
 @media (max-width: 376px) {
