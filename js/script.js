@@ -95,7 +95,7 @@ const swiper = new Swiper('.card-wrapper', {
 
   breakpoints: {
     0: { slidesPerView: 1},
-    769: { slidesPerView: 2 },
+    551: { slidesPerView: 2 },
     1025: { slidesPerView: 3 }
   }
 });
