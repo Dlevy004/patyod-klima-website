@@ -1,39 +1,4 @@
 @media (min-width: 2560px) {
-    .sub-title {
-        font-size: 3.5rem;
-    }
-
-    .cards {
-        flex-wrap: nowrap;
-    }
-
-    .card {
-        min-width: 600px;
-        max-width: 700px;
-        min-height: 800px;
-    }
-
-    .card__face--front h3, .card__header h3 {
-        font-size: 2.5rem;
-    }
-
-    .card__face--front .btn-more {
-        font-size: 1.7rem;
-    }
-
-    .card__face--front .btn-more img {
-        width: 10%;
-        height: auto;
-    }
-
-    .card__header {
-        padding: 60px 20px 60px;
-    }
-
-    .card__body {
-        font-size: 1.8rem;
-    }
-
     #reference {
         padding: 5% 0 10% 0;
     }
@@ -227,44 +192,6 @@
         transform: rotate(0deg);
         padding: 5%;
     }
-    
-    .sub-title {
-        font-size: 2rem;
-    }
-    .cards {
-        gap: 2vw;
-        max-width: 900px;
-    }
-    .card {
-        min-width: 230px;
-        max-width: 330px;
-        min-height: 400px;
-    }
-    
-    .card__face--front h2 {
-        font-size: 1.5rem;
-    }
-
-    .card__face--front .btn-more {
-        font-size: 1.1rem;
-        gap: 35%;
-    }
-
-    .card__header {
-        padding: 40px 20px 30px;
-    }
-
-    .card__header h2 {
-        font-size: 1.1rem;
-    }
-
-    .card__header img {
-        scale: 1.5;
-    }
-
-    .card__body {
-        font-size: 1.05rem;
-    }
 
     .card-wrapper {
         width: clamp(550px, 85vw, 800px);
@@ -301,48 +228,6 @@
     /*Hero section*/
     .hero-main {
         flex-direction: column;
-    }
-
-    .cards {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        max-width: 95vw;
-    }
-    
-    .card {
-        min-width: 350px;
-        max-width: 370px;
-        min-height: 400px;
-    }
-
-    .card:not(:first-of-type) {
-        margin-top: 35px;
-    }
-
-    .card__face--front h2 {
-        font-size: 1.5rem;
-    }
-
-    .card__face--front .btn-more {
-        width: 75%;
-        gap: 50%;
-    }
-
-    .card__header {
-        padding: 40px 20px 30px;
-    }
-
-    .card__header h2 {
-        font-size: 1.5rem;
-    }
-
-    .card__header img {
-        scale: 1.75;
-    }
-
-    .card__body {
-        font-size: 1.1rem;
     }
 
     .card-wrapper {
@@ -469,27 +354,6 @@
 }
 
 @media (max-width: 426px) {
-    .sub-title {
-        font-size: 1.6rem;
-    }
-    
-    .card {
-        min-width: 300px;
-        height: 350px;
-    }
-    
-    .card__header h2 {
-        font-size: 1.3rem;
-    }
-    
-    .card__header img {
-        scale: 1.5;
-    }
-    
-    .card__body {
-        font-size: 1rem;
-    }
-
     #reference {
         padding-top: 15%;
     }
@@ -508,21 +372,5 @@
     /*Hero section*/
     #hero {
         width: 96%;
-    }
-
-    #services {
-        padding: 20% 0 5% 0;
-    }
-    
-    .sub-title {
-        font-size: 1.6rem;
-        padding-bottom: 10px;
-    }
-}
-
-@media (max-width: 321px) {
-    .card {
-        min-width: 280px;
-        height: 350px;
     }
 }
