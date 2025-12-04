@@ -1,24 +1,4 @@
-@media (min-width: 2560px) {
-    #contact {
-        height: 80vh;
-    }
-
-    .content {
-        margin: 0 0 -5% 5%;
-    }
-
-    .content .sub-title {
-        margin: 0;
-        font-size: 3.5rem;
-    }
-
-    .con-btn:last-child a {
-        padding: 1rem 2.5rem;
-    }
-}
-
 @media (min-width: 1024px) {
-    /*Hero section*/
     .hero-description {
         font-size: calc(var(--fs-p) * 1.1);
     }
@@ -162,18 +142,6 @@
     .card-wrapper .swiper-slide-button {
         display: none;
     }
-
-    .contact {
-        margin: 2rem 0;
-    }
-
-    .content .sub-title {
-        margin: clamp(2%, 2vw, 5%) auto;
-    }
-
-    .contact img, .contact a img {
-        scale: 1.2;
-    }
 }
 
 @media (max-width: 768px) {
@@ -182,73 +150,11 @@
         flex-direction: column;
     }
 
-    #contact {
-        min-height: 80dvh;
-    }
-
-    .contact img, .con-btn a img {
-        scale: 1;
-    }
-
-    .content .sub-title {
-        margin: clamp(1%, 10vw, 3%) auto;
-    }
-
-    .contacts .con-btn a {
-        gap: 3%;
-    }
-
     /*Footer*/
     .footer-p a, .footer-p p { font-size: calc(var(--fs-p) * 0.8); }
 }
 
 @media (max-width: 550px) {
-    #contact {
-        min-height: 80dvh;
-        background-image: 
-        linear-gradient(to bottom, hsla(202, 72%, 47%, 0.5), rgba(255, 255, 255, 0)),
-        url(../images/contactBgPhone.avif);
-        background-position: right bottom;
-    }
-
-    .content {
-        margin: 0;
-        justify-content: start;
-        padding-top: 5%;
-    }
-
-    .content .sub-title {
-        text-align: center;
-        font-size: 1.8rem;
-    }
-
-    .contacts {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact {
-        margin: 0.75rem 0;
-        padding: 0;
-        white-space: nowrap;
-    }
-
-    .contact img, .con-btn a img {
-        scale: 1.2;
-    }
-
-    .contacts .con-btn a {
-        gap: 5%;
-    }
-
-    .con-btn:last-child a {
-        padding: 0.5rem 2rem;
-        margin: 0 auto;
-        gap: 7.5%
-    }
-
     /*Footer*/
     .footer-top {
         display: flex;
@@ -275,8 +181,23 @@
     .footer-p a, .footer-p p { font-size: var(--fs-p); }
 }
 
+@media (max-width: 426px) {
+    /*Contact section*/
+    #contact {
+        background-image: 
+            linear-gradient(to bottom, hsla(202, 72%, 47%, 0.5), rgba(255, 255, 255, 0)),
+            url(../images/contactBgPhone.avif);
+        background-attachment: scroll;
+    }
+
+    #contact .sub-title { text-align: center; }
+
+    .contacts { align-items: center; }
+
+    .content { margin: 0 auto; }
+}
+
 @media (max-width: 376px) {
-    /*Hero section*/
     #hero {
         width: 96%;
     }
