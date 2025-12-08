@@ -9,7 +9,7 @@
     width: clamp(3rem, 4.5vw, 5rem);
     height: clamp(3rem, 4.5vw, 5rem);
 
-    background-color: #228fce;
+    background-color: var(--bg-color-ternary);
     border-radius: 100%;
     border: 3px solid transparent;
     cursor: pointer;
@@ -23,7 +23,7 @@
 
 #scroll-up:is(:hover, :focus, :active) {
     background-color: #f2f2f2;
-    border: 3px solid #228fce;
+    border: 3px solid var(--bg-color-ternary);
     transform: scale(1.1);
 }
 
@@ -135,7 +135,7 @@
 
 .btn-contact:is(:hover, :focus, :active) {
     background-color: #f2f2f2;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--bg-color-ternary);
     color: var(--primary-color);
 }
 
@@ -198,7 +198,7 @@ body.darkmode .theme-switch {
     margin: clamp(5px, 2vw, 15px) auto;
     padding: clamp(4.5rem, 7vw, 9rem) clamp(1.5rem, 2vw, 3.5rem) clamp(2rem, 2vw, 5rem);
     
-    background-color: var(--primary-color);
+    background-color: var(--bg-color-ternary);
     border-radius: 30px;
 
     display: flex;
@@ -451,7 +451,7 @@ body.darkmode .theme-switch {
 .card__header {
     position: relative;
     padding: 30px 20px 30px;
-    background-color: var(--primary-color);
+    background-color: var(--bg-color-ternary);
     border-radius: 0 0 30% 0;
 
     display: flex;
