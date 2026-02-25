@@ -3,12 +3,14 @@
 <h1 align="center">Pátyod Klíma Weboldal</h1>
 
 <p align="center"> <img alt="Verzió" src="https://img.shields.io/badge/verzi%C3%B3-v1.2.0-blue?style=for-the-badge"> <img alt="Státusz" src="https://img.shields.io/badge/st%C3%A1tusz-k%C3%A9sz%20%26%20%C3%A9l%C5%91-brightgreen?style=for-the-badge"> </p>
+<p align="center">*Please scroll down for English version*</p>
 
 Ez a weboldal a **Pátyod Klíma** számára készült, egy klímaszereléssel és -karbantartással foglalkozó vállalkozás részére.
 
 A cél egy letisztult, modern és reszponzív *landing page* oldal létrehozása volt, amely bemutatja a szolgáltatásokat és egyszerű kapcsolatfelvételt biztosít.
 
 ## 🚀 Élő weboldal
+
 Az oldal jelenleg is fut, és elérhető az alábbi címen:
 ➡️ https://www.patyodklima.hu ⬅️
 
@@ -16,7 +18,7 @@ Az oldal jelenleg is fut, és elérhető az alábbi címen:
 ## ✨ Főbb Jellemzők
 
 - ✅ **Reszponzív Design:** Desktop-first megközelítéssel készült, minden eszközön tökéletesen jelenik meg.
-- 🌗 **Dark Mode / Light Mode**
+- 🌗 **Sötét mód / Világos mód**
 - 🍪 **Cookie Panel:** GDPR kompatibilis panel, Google Analytics vezérléssel.
 - 🔄 **Interaktív Elemek**
 - 🎠 **Referencia Galéria:** Érintés-barát lapozható galéria (Swiper.js).
@@ -24,8 +26,39 @@ Az oldal jelenleg is fut, és elérhető az alábbi címen:
 - 📈 **Teljesítmény Optimalizált:** Lazy loading, optimalizált képek és kódstruktúra.
 
 ## 🛠️ Felhasznált Technológiák
+
 A projekt "vanilla" technológiákra épül, amivel elsődleges célom, hogy jobban megerősítsem a webfejlesztési alapjaimat.
 
 <p> <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <a href="https://swiperjs.com/"><img alt="Swiper.js" src="https://img.shields.io/badge/-Swiper.js-6332F6?style=for-the-badge"></a> <img alt="Figma" src="https://img.shields.io/badge/-Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=black"></p>
 
 <p align="center">Pátyod Klíma &copy; 2025 | Minden jog fenntartva!</p>
+
+---
+
+<h1 align="center">Pátyod Klíma Website</h1>
+
+This website was created for Pátyod Klíma, a business specializing in air conditioning installation and maintenance.
+
+The goal was to create a clean, modern, and responsive landing page that showcases their services and provides easy contact options.
+
+## 🚀 Live website
+
+The site is currently live and available at the following address: ➡️ https://www.patyodklima.hu ⬅️
+
+## ✨ Key Features
+
+- ✅ **Responsive Design**: Built with a desktop-first approach, it displays perfectly on all devices.
+- 🌗 **Dark Mode / Light Mode**
+- 🍪 **Cookie Panel**: GDPR-compliant panel with Google Analytics control.
+- 🔄 **Interactive Elements**
+- 🐎 **Reference Gallery**: Touch-friendly swipeable gallery (Swiper.js).
+- ♿ **Accessibility**: Keyboard-navigable interface and semantic HTML structure.
+- 📈 **Performance Optimized**: Lazy loading, optimized images, and clean code structure.
+
+## 🛠️ Technologies Used
+
+The project is built on "vanilla" technologies. My primary goal with this was to further strengthen my core web development skills.
+
+<p> <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <a href="https://swiperjs.com/"><img alt="Swiper.js" src="https://img.shields.io/badge/-Swiper.js-6332F6?style=for-the-badge"></a> <img alt="Figma" src="https://img.shields.io/badge/-Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=black"></p>
+
+<p align="center">Pátyod Klíma © 2025 | All rights reserved!</p>
